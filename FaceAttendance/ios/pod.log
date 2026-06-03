@@ -1,0 +1,339 @@
+Ignoring debug-1.7.1 because its extensions are not built. Try: gem pristine debug --version 1.7.1
+Ignoring rbs-2.8.2 because its extensions are not built. Try: gem pristine rbs --version 2.8.2
+  $ /opt/homebrew/opt/node@20/bin/node -p require.resolve(     "react-native/scripts/react_native_pods.rb",     {paths: [process.argv[1]]},   ) /Users/indrayadav/FaceRecogApp/FaceAttendance/ios
+  /Users/indrayadav/FaceRecogApp/FaceAttendance/node_modules/react-native/scripts/react_native_pods.rb
+  $ /opt/homebrew/opt/node@20/bin/node -p require.resolve(     "@react-native-community/cli-platform-ios/native_modules.rb",     {paths: [process.argv[1]]},   ) /Users/indrayadav/FaceRecogApp/FaceAttendance/node_modules/react-native/scripts
+  /Users/indrayadav/FaceRecogApp/FaceAttendance/node_modules/@react-native-community/cli-platform-ios/native_modules.rb
+  $ /opt/homebrew/opt/node@20/bin/node -e try {console.log(require('@react-native-community/cli').bin);} catch (e) {console.log(require('react-native/cli').bin);}
+  /Users/indrayadav/FaceRecogApp/FaceAttendance/node_modules/@react-native-community/cli/build/bin.js
+/Users/indrayadav/FaceRecogApp/FaceAttendance/node_modules/react-native-fast-tflite/react-native-fast-tflite.podspec:47: warning: key "CLANG_CXX_LANGUAGE_STANDARD" is duplicated and overwritten on line 49
+[TFLite] CoreML Delegate is set to false! ($EnableCoreMLDelegate setting in Podfile)
+[VisionCamera] Thank you for using VisionCamera ❤️
+[VisionCamera] If you enjoy using VisionCamera, please consider sponsoring this project: https://github.com/sponsors/mrousavy
+[VisionCamera] $VCEnableLocation is not set, enabling CLLocation APIs by default...
+[VisionCamera] $VCEnableFrameProcessors is not set, enabling Frame Processors if Worklets is installed...
+[VisionCamera] react-native-worklets-core found at /Users/indrayadav/FaceRecogApp/FaceAttendance/node_modules/react-native-worklets-core, Frame Processors are enabled!
+Auto-linking React Native modules for target `FaceAttendance`: RNFS, RNReanimated, RNScreens, VisionCamera, react-native-fast-tflite, react-native-image-resizer, react-native-netinfo, react-native-safe-area-context, react-native-sqlite-storage, and react-native-worklets-core
+Framework build type is static library
+  $ /bin/mkdir -p ./build/generated/ios
+[Codegen] Generating ./build/generated/ios/React-Codegen.podspec.json
+[Codegen] generating an empty RCTThirdPartyFabricComponentsProvider
+  $ /opt/homebrew/opt/node@20/bin/node ./../node_modules/react-native/scripts/generate-provider-cli.js --platform ios --schemaListPath ./../node_modules/react-native/React/Fabric/tmpSchemaList.txt --outputDir ./../node_modules/react-native/React/Fabric
+  Preparing
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-FaceAttendance`: (``)
+  Using `ARCHS` setting to build architectures of target `Pods-FaceAttendance-FaceAttendanceTests`: (``)
+
+Fetching external sources
+-> Fetching podspec for `DoubleConversion` from `../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec`
+-> Fetching podspec for `FBLazyVector` from `../node_modules/react-native/Libraries/FBLazyVector`
+-> Fetching podspec for `FBReactNativeSpec` from `../node_modules/react-native/React/FBReactNativeSpec`
+[Codegen] Found FBReactNativeSpec
+-> Fetching podspec for `RCT-Folly` from `../node_modules/react-native/third-party-podspecs/RCT-Folly.podspec`
+-> Fetching podspec for `RCTRequired` from `../node_modules/react-native/Libraries/RCTRequired`
+-> Fetching podspec for `RCTTypeSafety` from `../node_modules/react-native/Libraries/TypeSafety`
+-> Fetching podspec for `RNFS` from `../node_modules/react-native-fs`
+-> Fetching podspec for `RNReanimated` from `../node_modules/react-native-reanimated`
+-> Fetching podspec for `RNScreens` from `../node_modules/react-native-screens`
+-> Fetching podspec for `React` from `../node_modules/react-native/`
+-> Fetching podspec for `React-Codegen` from `build/generated/ios`
+-> Fetching podspec for `React-Core` from `../node_modules/react-native/`
+-> Fetching podspec for `React-CoreModules` from `../node_modules/react-native/React/CoreModules`
+-> Fetching podspec for `React-Fabric` from `../node_modules/react-native/ReactCommon`
+-> Fetching podspec for `React-FabricImage` from `../node_modules/react-native/ReactCommon`
+-> Fetching podspec for `React-ImageManager` from `../node_modules/react-native/ReactCommon/react/renderer/imagemanager/platform/ios`
+-> Fetching podspec for `React-Mapbuffer` from `../node_modules/react-native/ReactCommon`
+-> Fetching podspec for `React-NativeModulesApple` from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`
+-> Fetching podspec for `React-RCTActionSheet` from `../node_modules/react-native/Libraries/ActionSheetIOS`
+-> Fetching podspec for `React-RCTAnimation` from `../node_modules/react-native/Libraries/NativeAnimation`
+-> Fetching podspec for `React-RCTAppDelegate` from `../node_modules/react-native/Libraries/AppDelegate`
+-> Fetching podspec for `React-RCTBlob` from `../node_modules/react-native/Libraries/Blob`
+-> Fetching podspec for `React-RCTFabric` from `../node_modules/react-native/React`
+-> Fetching podspec for `React-RCTImage` from `../node_modules/react-native/Libraries/Image`
+-> Fetching podspec for `React-RCTLinking` from `../node_modules/react-native/Libraries/LinkingIOS`
+-> Fetching podspec for `React-RCTNetwork` from `../node_modules/react-native/Libraries/Network`
+-> Fetching podspec for `React-RCTSettings` from `../node_modules/react-native/Libraries/Settings`
+-> Fetching podspec for `React-RCTText` from `../node_modules/react-native/Libraries/Text`
+-> Fetching podspec for `React-RCTVibration` from `../node_modules/react-native/Libraries/Vibration`
+-> Fetching podspec for `React-callinvoker` from `../node_modules/react-native/ReactCommon/callinvoker`
+-> Fetching podspec for `React-cxxreact` from `../node_modules/react-native/ReactCommon/cxxreact`
+-> Fetching podspec for `React-debug` from `../node_modules/react-native/ReactCommon/react/debug`
+-> Fetching podspec for `React-graphics` from `../node_modules/react-native/ReactCommon/react/renderer/graphics`
+-> Fetching podspec for `React-hermes` from `../node_modules/react-native/ReactCommon/hermes`
+-> Fetching podspec for `React-jserrorhandler` from `../node_modules/react-native/ReactCommon/jserrorhandler`
+-> Fetching podspec for `React-jsi` from `../node_modules/react-native/ReactCommon/jsi`
+-> Fetching podspec for `React-jsiexecutor` from `../node_modules/react-native/ReactCommon/jsiexecutor`
+-> Fetching podspec for `React-jsinspector` from `../node_modules/react-native/ReactCommon/jsinspector-modern`
+-> Fetching podspec for `React-logger` from `../node_modules/react-native/ReactCommon/logger`
+-> Fetching podspec for `React-nativeconfig` from `../node_modules/react-native/ReactCommon`
+-> Fetching podspec for `React-perflogger` from `../node_modules/react-native/ReactCommon/reactperflogger`
+-> Fetching podspec for `React-rendererdebug` from `../node_modules/react-native/ReactCommon/react/renderer/debug`
+-> Fetching podspec for `React-rncore` from `../node_modules/react-native/ReactCommon`
+[Codegen] Found rncore
+-> Fetching podspec for `React-runtimeexecutor` from `../node_modules/react-native/ReactCommon/runtimeexecutor`
+-> Fetching podspec for `React-runtimescheduler` from `../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler`
+-> Fetching podspec for `React-utils` from `../node_modules/react-native/ReactCommon/react/utils`
+-> Fetching podspec for `ReactCommon` from `../node_modules/react-native/ReactCommon`
+-> Fetching podspec for `VisionCamera` from `../node_modules/react-native-vision-camera`
+[VisionCamera] Thank you for using VisionCamera ❤️
+[VisionCamera] If you enjoy using VisionCamera, please consider sponsoring this project: https://github.com/sponsors/mrousavy
+[VisionCamera] $VCEnableLocation is not set, enabling CLLocation APIs by default...
+[VisionCamera] $VCEnableFrameProcessors is not set, enabling Frame Processors if Worklets is installed...
+[VisionCamera] react-native-worklets-core found at /Users/indrayadav/FaceRecogApp/FaceAttendance/node_modules/react-native-worklets-core, Frame Processors are enabled!
+-> Fetching podspec for `Yoga` from `../node_modules/react-native/ReactCommon/yoga`
+-> Fetching podspec for `boost` from `../node_modules/react-native/third-party-podspecs/boost.podspec`
+-> Fetching podspec for `glog` from `../node_modules/react-native/third-party-podspecs/glog.podspec`
+-> Fetching podspec for `hermes-engine` from `../node_modules/react-native/sdks/hermes-engine/hermes-engine.podspec`
+[Hermes] Using release tarball from URL: https://repo1.maven.org/maven2/com/facebook/react/react-native-artifacts/0.73.0/react-native-artifacts-0.73.0-hermes-ios-debug.tar.gz
+/Users/indrayadav/FaceRecogApp/FaceAttendance/node_modules/react-native-fast-tflite/react-native-fast-tflite.podspec:47: warning: key "CLANG_CXX_LANGUAGE_STANDARD" is duplicated and overwritten on line 49
+-> Fetching podspec for `react-native-fast-tflite` from `../node_modules/react-native-fast-tflite`
+[TFLite] CoreML Delegate is set to false! ($EnableCoreMLDelegate setting in Podfile)
+-> Fetching podspec for `react-native-image-resizer` from `../node_modules/react-native-image-resizer`
+-> Fetching podspec for `react-native-netinfo` from `../node_modules/@react-native-community/netinfo`
+-> Fetching podspec for `react-native-safe-area-context` from `../node_modules/react-native-safe-area-context`
+-> Fetching podspec for `react-native-sqlite-storage` from `../node_modules/react-native-sqlite-storage`
+-> Fetching podspec for `react-native-worklets-core` from `../node_modules/react-native-worklets-core`
+
+Resolving dependencies of `Podfile`
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_0_9_9.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/0/9/9/libevent/2.1.12/libevent.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_7_6_3.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/7/6/3/fmt/7.1.3/fmt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_a_9_3.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/a/9/3/SocketRocket/0.7.1/SocketRocket.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: all_pods_versions_1_6_0.txt exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/6/0/TensorFlowLiteC/2.17.0/TensorFlowLiteC.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/a/9/3/SocketRocket/0.6.1/SocketRocket.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/7/6/3/fmt/6.2.1/fmt.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/0/9/9/libevent/2.1.12/libevent.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/6/0/TensorFlowLiteC/2.17.0/TensorFlowLiteC.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/1/6/0/TensorFlowLiteC/2.17.0/TensorFlowLiteC.podspec.json exists! Returning local because checking is only performed in repo update
+  CDN: trunk Relative path: Specs/0/9/9/libevent/2.1.12/libevent.podspec.json exists! Returning local because checking is only performed in repo update
+
+Comparing resolved specification to the sandbox manifest
+  A DoubleConversion
+  A FBLazyVector
+  A FBReactNativeSpec
+  A RCT-Folly
+  A RCTRequired
+  A RCTTypeSafety
+  A RNFS
+  A RNReanimated
+  A RNScreens
+  A React
+  A React-Codegen
+  A React-Core
+  A React-CoreModules
+  A React-Fabric
+  A React-FabricImage
+  A React-ImageManager
+  A React-Mapbuffer
+  A React-NativeModulesApple
+  A React-RCTActionSheet
+  A React-RCTAnimation
+  A React-RCTAppDelegate
+  A React-RCTBlob
+  A React-RCTFabric
+  A React-RCTImage
+  A React-RCTLinking
+  A React-RCTNetwork
+  A React-RCTSettings
+  A React-RCTText
+  A React-RCTVibration
+  A React-callinvoker
+  A React-cxxreact
+  A React-debug
+  A React-graphics
+  A React-hermes
+  A React-jserrorhandler
+  A React-jsi
+  A React-jsiexecutor
+  A React-jsinspector
+  A React-logger
+  A React-nativeconfig
+  A React-perflogger
+  A React-rendererdebug
+  A React-rncore
+  A React-runtimeexecutor
+  A React-runtimescheduler
+  A React-utils
+  A ReactCommon
+  A SocketRocket
+  A TensorFlowLiteC
+  A VisionCamera
+  A Yoga
+  A boost
+  A fmt
+  A glog
+  A hermes-engine
+  A libevent
+  A react-native-fast-tflite
+  A react-native-image-resizer
+  A react-native-netinfo
+  A react-native-safe-area-context
+  A react-native-sqlite-storage
+  A react-native-worklets-core
+
+Downloading dependencies
+
+-> Installing DoubleConversion (1.1.6)
+  > Copying DoubleConversion from `/Users/indrayadav/Library/Caches/CocoaPods/Pods/External/DoubleConversion/77f51e588bfe0e5c4fa6e9c580da62c6-fea03` to `Pods/DoubleConversion`
+
+-> Installing FBLazyVector (0.73.0)
+
+-> Installing FBReactNativeSpec (0.73.0)
+ > Running prepare command
+   $ /bin/bash -c  set -e mkdir -p ../../../../ios/build/generated/ios/./FBReactNativeSpec && touch -a ../../../../ios/build/generated/ios/./FBReactNativeSpec/FBReactNativeSpec.h ../../../../ios/build/generated/ios/./FBReactNativeSpec/FBReactNativeSpec-generated.mm
+
+-> Installing RCT-Folly (2022.05.16.00)
+  > Copying RCT-Folly from `/Users/indrayadav/Library/Caches/CocoaPods/Pods/External/RCT-Folly/137dd11158d6bc0b1901aaccb62ee780-7169b` to `Pods/RCT-Folly`
+
+-> Installing RCTRequired (0.73.0)
+
+-> Installing RCTTypeSafety (0.73.0)
+
+-> Installing RNFS (2.20.0)
+
+-> Installing RNReanimated (3.6.3)
+
+-> Installing RNScreens (3.29.0)
+
+-> Installing React (0.73.0)
+
+-> Installing React-Codegen (0.73.0)
+
+-> Installing React-Core (0.73.0)
+
+-> Installing React-CoreModules (0.73.0)
+
+-> Installing React-Fabric (0.73.0)
+
+-> Installing React-FabricImage (0.73.0)
+
+-> Installing React-ImageManager (0.73.0)
+
+-> Installing React-Mapbuffer (0.73.0)
+
+-> Installing React-NativeModulesApple (0.73.0)
+
+-> Installing React-RCTActionSheet (0.73.0)
+
+-> Installing React-RCTAnimation (0.73.0)
+
+-> Installing React-RCTAppDelegate (0.73.0)
+
+-> Installing React-RCTBlob (0.73.0)
+
+-> Installing React-RCTFabric (0.73.0)
+
+-> Installing React-RCTImage (0.73.0)
+
+-> Installing React-RCTLinking (0.73.0)
+
+-> Installing React-RCTNetwork (0.73.0)
+
+-> Installing React-RCTSettings (0.73.0)
+
+-> Installing React-RCTText (0.73.0)
+
+-> Installing React-RCTVibration (0.73.0)
+
+-> Installing React-callinvoker (0.73.0)
+
+-> Installing React-cxxreact (0.73.0)
+
+-> Installing React-debug (0.73.0)
+
+-> Installing React-graphics (0.73.0)
+
+-> Installing React-hermes (0.73.0)
+
+-> Installing React-jserrorhandler (0.73.0)
+
+-> Installing React-jsi (0.73.0)
+
+-> Installing React-jsiexecutor (0.73.0)
+
+-> Installing React-jsinspector (0.73.0)
+
+-> Installing React-logger (0.73.0)
+
+-> Installing React-nativeconfig (0.73.0)
+
+-> Installing React-perflogger (0.73.0)
+
+-> Installing React-rendererdebug (0.73.0)
+
+-> Installing React-rncore (0.73.0)
+ > Running prepare command
+   $ /bin/bash -c  set -e mkdir -p ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore && touch -a ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/ComponentDescriptors.h ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/EventEmitters.cpp ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/EventEmitters.h ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/Props.cpp ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/Props.h ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/States.cpp ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/States.h ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/RCTComponentViewHelpers.h ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/ShadowNodes.cpp ../../../ios/../node_modules/react-native/ReactCommon/react/renderer/components/rncore/ShadowNodes.h
+
+-> Installing React-runtimeexecutor (0.73.0)
+
+-> Installing React-runtimescheduler (0.73.0)
+
+-> Installing React-utils (0.73.0)
+
+-> Installing ReactCommon (0.73.0)
+
+-> Installing SocketRocket (0.6.1)
+  > Copying SocketRocket from `/Users/indrayadav/Library/Caches/CocoaPods/Pods/Release/SocketRocket/0.6.1-f32cd` to `Pods/SocketRocket`
+
+-> Installing TensorFlowLiteC (2.17.0)
+  > Copying TensorFlowLiteC from `/Users/indrayadav/Library/Caches/CocoaPods/Pods/Release/TensorFlowLiteC/2.17.0-eac6d` to `Pods/TensorFlowLiteC`
+
+-> Installing VisionCamera (4.6.4)
+
+-> Installing Yoga (1.14.0)
+
+-> Installing boost (1.83.0)
+ > Http download
+   $ /usr/bin/curl -f -L -o /var/folders/hm/yqr7y2fj6_b_5b9p4bprqdx40000gn/T/d20260601-20963-xmdzxf/file.tbz https://boostorg.jfrog.io/artifactory/main/release/1.83.0/source/boost_1_83_0.tar.bz2 --create-dirs --netrc-optional --retry 2 -A 'CocoaPods/1.16.2 cocoapods-downloader/2.1'
+     % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                    Dload  Upload   Total   Spent    Left  Speed
+        0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0     0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0   100   138  100   138    0     0    122      0  0:00:01  0:00:01 --:--:--   122   100   138  100   138    0     0    122      0  0:00:01  0:00:01 --:--:--   122
+        9 11447    9  1088    0     0    496      0  0:00:23  0:00:02  0:00:21   496   100 11447  100 11447    0     0   5185      0  0:00:02  0:00:02 --:--:--  674k
+
+[!] Error installing boost
+Verification checksum was incorrect, expected 6478edfe2f3305127cffe8caf73ea0176c53769f4bf1585be237eb30798c3b8e, got 7ae219a04217b86670ef8ab381619c1d90d04dbe8c88f58a29fc64c56345af63
+
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/remote_file.rb:146:in `compare_hash'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/remote_file.rb:162:in `verify_sha256_hash'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/remote_file.rb:169:in `verify_checksum'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/remote_file.rb:26:in `download!'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/base.rb:83:in `block in download'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/downloader.rb:159:in `block in ui_action'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/user_interface.rb:64:in `section'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/downloader.rb:158:in `ui_action'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-downloader-2.1/lib/cocoapods-downloader/base.rb:81:in `download'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/downloader.rb:110:in `download_source'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/downloader.rb:77:in `download_request'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/downloader/cache.rb:256:in `download'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/downloader/cache.rb:239:in `block in uncached_pod'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/downloader/cache.rb:266:in `in_tmpdir'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/downloader/cache.rb:238:in `uncached_pod'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/downloader/cache.rb:33:in `download_pod'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/downloader.rb:42:in `download'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/pod_source_downloader.rb:69:in `download!'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/pod_source_installer.rb:117:in `download_source'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer/pod_source_installer.rb:67:in `install!'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:621:in `install_source_of_pod'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:539:in `block (2 levels) in install_pod_sources'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/user_interface.rb:86:in `titled_section'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:538:in `block in install_pod_sources'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:535:in `each'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:535:in `install_pod_sources'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:258:in `block in download_dependencies'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/user_interface.rb:64:in `section'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:257:in `download_dependencies'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/installer.rb:163:in `install!'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/command/install.rb:52:in `run'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/claide-1.1.0/lib/claide/command.rb:334:in `run'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/lib/cocoapods/command.rb:52:in `run'
+/Users/indrayadav/.rbenv/versions/3.2.0/lib/ruby/gems/3.2.0/gems/cocoapods-1.16.2/bin/pod:55:in `<top (required)>'
+/Users/indrayadav/.rbenv/versions/3.2.0/bin/pod:25:in `load'
+/Users/indrayadav/.rbenv/versions/3.2.0/bin/pod:25:in `<main>'

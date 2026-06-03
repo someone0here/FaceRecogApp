@@ -1,0 +1,30 @@
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 23
+        compileSdkVersion = 34
+        targetSdkVersion = 34
+        ndkVersion = "25.1.8937393"       // ← your installed NDK
+        kotlinVersion = "1.9.24"             // ← upgraded for vision-camera
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}")  // ← explicit version
+    }
+}
+
+allprojects {
+    configurations.all {
+        resolutionStrategy {
+            force "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0"       // ← pin coroutines
+            force "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.9.0"
+        }
+    }
+}
+
+apply plugin: "com.facebook.react.rootproject"

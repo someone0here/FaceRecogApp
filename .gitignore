@@ -1,0 +1,15 @@
+node_modules/
+venv/
+env/
+__pycache__/
+.DS_Store
+.env
+build/
+dist/
+*.apk
+*.ipa
+.gradle/
+.idea/
+Pods/
+.xcode.env
+package-lock.json
