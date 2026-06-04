@@ -13,7 +13,7 @@ We are committed to providing a welcoming and inspiring community for all. Pleas
 ## Getting Started
 
 1. **Fork the repository** on GitHub
-2. **Clone your fork**: `git clone https://github.com/YOUR_USERNAME/FaceRecogApp.git`
+2. **Clone your fork**: `git clone https://github.com/someone0here/FaceRecogApp.git`
 3. **Create a feature branch**: `git checkout -b feature/my-feature`
 4. **Make your changes** (don't modify code unless fixing bugs)
 5. **Commit with clear messages**: `git commit -m "Add feature: X"`
